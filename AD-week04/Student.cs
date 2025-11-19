@@ -1,11 +1,10 @@
-﻿namespace AD_week04
+﻿public class Student
 {
-    internal class Student
-    {
-        internal string Name;
+    // 3 instance fields
+    public string Name;
+    public int Age;
+    public string Course;
 
-        public Student()
-        {
-        }
-    }
+    // 1 static field
+    public static string SchoolName = "Tech University";
 }
